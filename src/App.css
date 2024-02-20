@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.travel-guide-main-container {
+  background-color: #eef4f7;
+  background-size: cover;
+}
+.travel-guide-heading {
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: underline #52bbf0 2px;
+  font-family: 'Roboto';
+  color: #334155;
+  text-align: center;
+  padding-top: 10px;
+}
+.travel-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
